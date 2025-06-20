@@ -7,6 +7,8 @@ using UnityEngine.InputSystem;
 public class InputManager : MonoBehaviour, IManager
 {
     #region Properties
+
+    // Custom Properties
     private InputActions inputActions;
 
     #endregion
@@ -25,11 +27,6 @@ public class InputManager : MonoBehaviour, IManager
         // 初始化输入管理器
         inputActions = new InputActions();
         inputActions.Enable();
-
-        {
-            // 处理调试触发器事件
-            Debug.Log("Debug Trigger Pressed");
-        };
 
         Debug.Log("InputManager initialized");
     }
