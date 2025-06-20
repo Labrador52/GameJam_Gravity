@@ -1,8 +1,7 @@
-using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
-using System; // For Type
-using UnityEngine.InputSystem; // For InputActions
+using UnityEngine.InputSystem;
 
 public class DebugManager : MonoBehaviour, IManager
 {
