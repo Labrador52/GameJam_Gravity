@@ -9,7 +9,9 @@ public class GameManager : MonoBehaviour, IManager
     #endregion
 
     #region Methods
+
     // Custom methods
+
     public static void QuitGame(bool error = false)
     {
 #if UNITY_EDITOR
@@ -21,6 +23,7 @@ public class GameManager : MonoBehaviour, IManager
 #endif
     }
 
+    // IManager Methods
 
     public IEnumerable<Type> GetDependencies()
     {
