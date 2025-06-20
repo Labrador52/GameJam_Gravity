@@ -163,6 +163,15 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.inputsystem": {
+      "version": "1.14.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.mathematics": {
       "version": "1.2.6",
       "depth": 2,
@@ -220,6 +229,13 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "labrador.unitywrench.service": {
+      "version": "https://github.com/Labrador52/UnityWrench-Service.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "f95c341580e448e26ccbfd6bd75b763803dddbc0"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
